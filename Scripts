@@ -1,0 +1,116 @@
+Assignment 1:
+If/Else If/Else:
+
+1. Write a program to prompt the user for age. If age is less than or equal to (<=) 14, alert "Not Allowed". If age is greater than 14 and less than 65, alert "Regular Price". If age is equal to 50, alert "Special discount".
+
+var age = prompt('Please enter the age');
+if(age<=14){
+    alert("Not Allowed");
+}
+else if(age>=14 && age <=65){
+    alert("Regular Price");
+}
+else if(age==50){
+    alert("Special discount");
+
+}
+
+
++++++++++++++++++++
+
+2. Write a program to prompt the user for age. If age is equal to 14, alert "coupon 1". If age is equal to 21, alert "coupon 2". If age is equal to 30, alert "coupon 3". If age is equal to 50, alert "coupon 4". Else alert "No coupon".
+
+var age = prompt('Please enter the age');
+if(age==14){
+    alert("coupon 1");
+}
+else if(age==21){
+    alert("coupon 2");
+}
+else if(age==30){
+    alert("coupon 3");
+}
+else if(age==50){
+    alert("coupon 4");
+}
+else {
+    alert("No coupon")
+}
++++++++++++++++++++++
+
+3. Write a program to prompt the user to enter a day (like Monday, Tuesday, Wednesday, etc). Based on the value entered by the user, display a special dish. For example, if the user enters Monday then alert "Mondays, We serve Pasta". If the user enters Friday then alert "Fridays, we serve Tacos".
+
+var day = prompt('Please enter a day');
+if(day.toLowerCase()==="sunday"){
+    alert("Sunday's, We serve Deep-Dish Pizza.");
+}
+else if(day.toLowerCase()==="monday"){
+    alert("Monday's, We serve Pasta.");
+}
+else if(day.toLowerCase()==="tuesday"){
+    alert("Tuesday's, We serve Hot Dogs.");
+}
+else if(day.toLowerCase()==="wednesday"){
+    alert("Wednesday's, We serve Barbecue Ribs.");
+}
+else if(day.toLowerCase()==="thursday"){
+    alert("Thursday's, We serve Texas Barbecue.");
+}
+else if(day.toLowerCase()==="friday"){
+    alert("Friday's, We serve Tacos.");
+}
+else if(day.toLowerCase()==="saturday"){
+    alert("Saturday's, We serve Hamburger.");
+}
+else {
+    alert("Please enter a day (like Monday, Tuesday, Wednesday, etc)");
+}
++++++++++++++++++++++++
+
+4. Write a program to prompt the user to enter a year (like 2011, 2012, 2010, etc). Based on the value entered, display the movie that won the Oscars for that year. Just write this for last 8 years. If he enters beyond last 8 years then alert the user to enter between 2003-2012.
+
+var year = prompt('Please enter a year');
+if(year==="2020"){
+    alert("Parasite movie won the Oscar in 2020");
+}
+else if(year==="2019"){
+    alert("Green Book movie won the Oscar in 2019");
+}
+else if(year==="2018"){
+    alert("The Shape of Water movie won the Oscar in 2018");
+}
+else if(year==="2017"){
+    alert("Moonlight movie won the Oscar in 2017");
+}
+else if(year==="2016"){
+    alert("Spotlight movie won the Oscar in 2016");
+}
+else if(year==="2015"){
+    alert("Birdman movie won the Oscar in 2015");
+}
+else if(year==="2014"){
+    alert("12 Years a Slave movie won the Oscar in 2014");
+}
+else if(year==="2013"){
+    alert("Argo movie won the Oscar in 2019");
+}
+else {
+    alert("Please enter a year between 2013-2020.");
+}
++++++++++++++++++++++++++++++++++++
+
+5. Write a program to prompt the user to enter the Grade of a student (like A+, A, A-, B etc). Based on the value entered, display terms like "Excellent", "Good Job", "Average" etc.
+
+var grade = prompt('Please enter the Grade');
+if(grade==="A+"){
+    alert("Excellent");
+}
+else if(grade==="A"){
+    alert("Good Job");
+}
+else if(grade==="A-"){
+    alert("Average");
+}
+else {
+    alert("Please enter the correct grade");
+}
